@@ -1,0 +1,571 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+/*header start*/
+header{
+
+}
+
+/*top bar starts*/
+
+.wrapper1{
+	color: white;
+	/*font-family: "poppins";*/
+	font-size: 16px;
+	background-color: #535D69;
+	overflow: hidden;
+}
+.container {
+	margin: 0 auto;   /* here auto is used for equal margin left-right*/
+	width: 75%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.note{
+	width: 20%;
+	float: left;
+	font-weight: 400;
+	/*border: 1px solid blue;*/
+}
+.note p{
+	width: 100%;
+}
+
+.icon{
+	margin-right: 30px;
+    width: 66%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+.icon ul{
+	float: right;
+}
+.icon ul li{
+	list-style: none;
+	float: left;
+}
+.icon ul li i{
+	margin:0 10px;
+	cursor: pointer;
+	transition: .3s;
+}
+.icon ul li:first-child i{
+	margin-right: 30px;
+}
+.icon ul li i:hover{
+	color: #BD233F;
+}
+
+.button1{
+	width: 11%;
+	float: left;
+    /*border: 1px solid blue;*/
+}
+.button1 button{
+	padding: 20px 40px;
+	/*display: inline-block;*/
+	color: white;
+	/*font-family: "poppins";*/
+	font-size: 14px;
+	font-weight: 400;
+    text-transform: uppercase;
+    background-color: #BD233F;
+    border:none;
+	cursor: pointer;
+	transition: .3s;
+}
+.button1 button:hover{
+	color: white;
+	background-color: #a6001f;
+}
+/*top bar ends*/
+
+.wrapper2{
+	background-color: white;
+}
+
+.logo {
+	margin-top: 3px;
+	padding:16px 0;
+	width: 18%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.logo img{            /*Decendent selector*/
+    width: 100%;     
+}
+
+/*nav bar starts*/
+
+.menu {
+	padding:12px 0;
+	display: inline-block;
+	width: 79%;
+	/*border: 1px solid blue;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	padding: 10px 12px;
+	display: inline-block;
+	/*font-family:"poppins";*/
+	font-size: 16px;
+	font-weight: 500;
+	color: #535D69;
+	text-decoration: none;
+	cursor: pointer;
+	transition: .3s;
+
+}
+.menu ul li:last-child a{     /*pseudo selector*/
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BD233F;
+}
+
+/*nav bar ends*/
+
+/*header end*/
+
+/*banner starts*/
+
+.banner{
+	/*min-height: 370px;*/
+	background-image:url(../image/banner.jpg);
+	background-color: #00000080;
+	background-blend-mode: darken;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	margin: 100px 0;
+	width: 50%;
+	/*border: 1px solid blue;*/
+	/*font-family: "poppins";*/
+}
+.b_content h1{
+	margin: 0 0 35px;
+	font-size: 58px;
+	font-weight:600;
+	color:white;
+	text-transform:capitalize;
+	line-height: 70px;
+}
+.b_content p{
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+}
+.b_content button{
+	margin: 35px 0 0;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	color:white;
+	text-transform: uppercase;
+	background-color: #BD233F;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	color: white;
+	background-color: #a6001f;
+}
+
+/*banner ends*/
+
+/*how it works starts*/
+.works{
+	padding: 100px 0;
+}
+.title{
+	margin: 0 auto 70px;
+	width: 70%;
+	/*font-family: "poppins";*/
+	text-align: center;
+	/*border: 1px solid blue;*/
+}
+.title h1{
+	margin: 0 0 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #141414;
+    text-transform: uppercase;
+}
+.title p{
+	margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535D69;
+}
+
+/*w_content starts*/
+.w_content{
+	overflow: hidden;
+	/*border: 1px solid blue;*/
+}
+/*single starts*/
+
+.single{
+	padding: 0 6.66%;
+	width: 20%;
+	/*font-family: "poppins";*/
+	/*border: 1px solid blue;*/
+	text-align: center;
+	float: left;
+}
+.s_img{
+	margin: 0 auto;
+	width:50%;
+}
+.s_img img{
+	width: 100%;
+}
+.single h3{
+	font-size: 16px;
+    font-weight: 700;
+    color: #535D69;
+}
+
+/*single ends*/
+/*w_content ends*/
+
+/*how it works ends*/
+
+/*learn more starts*/
+.learn{
+	padding: 100px 0;
+	background-color: #f8f8f8;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.l_content{
+	margin: 15px 0 0;
+	width: 40%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+.l_content h1{
+	margin: 0 0 25px;
+	font-size: 25px;
+	font-weight:600;
+	color:#141414;
+	text-transform:uppercase;
+	/*line-height: 70px;*/
+}
+.l_content p{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color:#535D69;
+}
+.l_content button{
+	margin: 40px 0 0;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	color:white;
+	text-transform: uppercase;
+	background-color: #BD233F;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.l_content button:hover{
+	color: white;
+	background-color: #a6001f;
+}
+
+.l_video{
+	padding: 2px;
+	width: 48%;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+.l_video video{
+	width: 100%;
+	height: auto;
+	box-shadow: 2px 2px 5px 1px #b4b4b4;
+	
+}
+
+/*learn more ends*/
+
+/*features starts*/
+
+.features{
+	padding: 100px 0;
+	/*border: 1px solid blue;*/
+}
+.f-container{
+	margin: 0 auto;   /* here auto is used for equal margin left-right*/
+	width: 79.3%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.f_content{
+	padding: 2px;
+	overflow: hidden;
+	/*border: 1px solid blue;*/
+}
+
+/*single content starts*/
+
+.f_single{
+	margin: 0 10px 25px 18px;
+    padding: 4% 3%;
+    width: 25%;
+    /* border: 1px solid blue; */
+    box-shadow: 1px 1px 3px 1px #d9d9d9;
+    text-align: center;
+    cursor: pointer;
+	transition: .3s;
+    float: left;
+}
+.f_single:hover{
+	color: #BD233F;
+    box-shadow: 5px 5px 10px 1px #d9d9d9;
+}
+/*.f_single i:hover {
+    color: #BD233F;
+}*/
+.f_icon{
+	margin: 0 auto;
+	width: 45%;
+	/*border: 1px solid blue;*/
+}
+.f_icon i{
+	width: 100%;
+	font-size: 40px;
+	color: #949aa1;
+}
+.f-content{}
+.f-content h3{
+	margin: 25px 0 15px;
+	font-size: 18px;
+	font-weight:600;
+	color:#141414;
+	text-transform:capitalize;
+}
+.f-content p{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color:#535D69;
+}
+
+/*single content ends*/
+
+.f_button{
+	margin: 70px 0 0;
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+.f_button button{
+	margin: 3px 0;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 400;
+	color:#BD233F;
+	text-transform: uppercase;
+	background-color:white;
+	box-shadow: 1px 1px 3px 1px #d9d9d9;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.f_button button:hover{
+	color: white;
+	background-color: #BD233F;
+	box-shadow: 1px 1px 3px 1px #d9d9d9;
+}
+
+/*feature ends*/
+
+/*address bar starts*/
+
+.about_us{
+	padding: 80px 0;
+	background-color: #090909;
+	color: #535D69;
+	/*border: 1px solid blue;*/
+}
+/*address starts*/
+.address{
+	width: 40%;
+	display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.contact{
+	margin-bottom: 15px;
+	/*border: 1px solid blue;*/
+}
+.contact h2{
+	margin-top: 0;
+	color:  #BD233F;
+    text-transform: uppercase;
+}
+.contact p{
+	margin: 0;
+	font-size: 15px;
+	line-height: 35px;
+}
+.contact p i{
+	font-size: 16px;
+    color:  #BD233F;
+}
+
+.social{
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.social ul {
+	padding-left: 0;
+	/*float: left;*/
+}
+.social ul li{
+	list-style: none;
+	margin: 0 10px 0 0;
+	float: left;
+
+}
+.social ul li i{
+	padding:8px;
+	display: inline-block;
+	color: #090909;
+	background-color: #535D69;
+	cursor: pointer;
+	transition: .3s;	
+}
+.social ul li:first-child i{
+	padding: 8px 12px;
+}
+.social ul li:nth-child(2) i{
+	padding: 8px 9px;
+}
+.social ul li:nth-child(4) i{
+	padding: 8px 11px;
+}
+.social ul li:last-child i{
+	padding: 8px 10px;
+}
+.social ul li i:hover{
+	color: white;
+	background-color: #BD233F;
+}
+
+/*address ends*/
+
+/*link starts*/
+
+.link{
+	width: 28%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.link h2{
+	margin-top: 0;
+	color:  #BD233F;
+    text-transform: uppercase;
+}
+.link ul{
+	padding-left: 0;
+}
+.link ul li{
+	margin-bottom: 5px;
+	list-style: none;
+}
+.link ul li a{ 
+	font-size: 15px;
+	font-weight: 400;
+	color: #535D69;
+	text-decoration: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.link ul li a:hover{
+	color: #BD233F; 
+}
+
+/*link ends*/
+
+/*newsletter starts*/
+.newsletter{
+	width: 32%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+.newsletter h2{
+	margin-top: 0;
+	color:  #BD233F;
+    text-transform: uppercase;
+}
+.newsletter p{
+	font-size: 15px;
+}
+
+.email_sub{
+	margin-top: 30px;
+}
+.email_sub input{
+	width: 59.7%;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #090909;
+	border: 2px solid #535D69;
+	/*border-right: none;*/
+
+}
+.email_sub input[type=submit]{
+	font-size: 15px;
+
+}
+::placeholder{
+	font-size: 15px;
+	color: #535D69;
+}
+.email_sub button{
+	padding: 15px 20px;
+	font-size: 15px;
+	font-weight: 400;
+	color:white;
+	background-color: #BD233F;
+	border: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.email_sub button:hover{
+	color: white;
+	background-color: #a6001f;
+}
+
+/*newsletter starts*/
+/*address bar ends*/
+
+/*footer starts*/
+footer{
+	background-color: #5E6874;
+}
+.footer p{
+	padding: 15px 0;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+/*border: 1px solid blue;*/
